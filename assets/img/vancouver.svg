@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0b6fa4" rx="20"/>
+  <text x="200" y="140" text-anchor="middle" font-family="Poppins, sans-serif" font-size="46" font-weight="700" fill="#fff">VANCOUVER</text>
+  <text x="200" y="180" text-anchor="middle" font-family="Open Sans, sans-serif" font-size="20" fill="#cfe8f5">Estilo numérico</text>
+  <g transform="translate(140,200)" fill="#fff" opacity="0.85">
+    <text x="0" y="0" font-family="Arial" font-size="22" font-weight="700">[1]</text>
+    <text x="40" y="0" font-family="Arial" font-size="22" font-weight="700">[2]</text>
+    <text x="80" y="0" font-family="Arial" font-size="22" font-weight="700">[3]</text>
+  </g>
+</svg>

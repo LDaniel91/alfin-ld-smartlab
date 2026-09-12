@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b6fa4"/>
+      <stop offset="0.5" stop-color="#0d9488"/>
+      <stop offset="1" stop-color="#0b6fa4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg3)"/>
+  <g opacity="0.1" stroke="#fff" stroke-width="1">
+    <line x1="0" y1="150" x2="1600" y2="150"/>
+    <line x1="0" y1="300" x2="1600" y2="300"/>
+    <line x1="0" y1="450" x2="1600" y2="450"/>
+    <line x1="0" y1="600" x2="1600" y2="600"/>
+    <line x1="0" y1="750" x2="1600" y2="750"/>
+    <line x1="200" y1="0" x2="200" y2="900"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="800" y1="0" x2="800" y2="900"/>
+    <line x1="1000" y1="0" x2="1000" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+    <line x1="1400" y1="0" x2="1400" y2="900"/>
+  </g>
+  <g opacity="0.18" fill="#fff">
+    <text x="800" y="500" text-anchor="middle" font-family="Poppins, sans-serif" font-size="320" font-weight="700">A</text>
+  </g>
+  <circle cx="1300" cy="200" r="140" fill="rgba(245,158,11,0.2)"/>
+  <circle cx="300" cy="700" r="100" fill="rgba(245,158,11,0.15)"/>
+</svg>

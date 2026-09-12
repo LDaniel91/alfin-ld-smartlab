@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#dc2626" rx="20"/>
+  <text x="200" y="140" text-anchor="middle" font-family="Poppins, sans-serif" font-size="70" font-weight="700" fill="#fff">MLA</text>
+  <text x="200" y="180" text-anchor="middle" font-family="Open Sans, sans-serif" font-size="20" fill="#fee2e2">Modern Language</text>
+  <text x="200" y="205" text-anchor="middle" font-family="Open Sans, sans-serif" font-size="20" fill="#fee2e2">Association</text>
+</svg>

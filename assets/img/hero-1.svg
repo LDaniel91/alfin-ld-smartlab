@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b6fa4"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <pattern id="grid1" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0 L0 0 0 60" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg1)"/>
+  <rect width="1600" height="900" fill="url(#grid1)"/>
+  <circle cx="1300" cy="180" r="180" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="200" cy="750" r="220" fill="rgba(255,255,255,0.05)"/>
+  <circle cx="800" cy="450" r="320" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <g transform="translate(700,380)" opacity="0.35">
+    <rect x="0" y="0" width="200" height="260" rx="12" fill="#fff"/>
+    <rect x="20" y="30" width="160" height="8" rx="4" fill="#0b6fa4"/>
+    <rect x="20" y="55" width="120" height="8" rx="4" fill="#0b6fa4"/>
+    <rect x="20" y="80" width="140" height="8" rx="4" fill="#0b6fa4"/>
+    <rect x="20" y="115" width="160" height="6" rx="3" fill="#999"/>
+    <rect x="20" y="135" width="150" height="6" rx="3" fill="#999"/>
+    <rect x="20" y="155" width="140" height="6" rx="3" fill="#999"/>
+    <rect x="20" y="175" width="160" height="6" rx="3" fill="#999"/>
+    <rect x="20" y="195" width="120" height="6" rx="3" fill="#999"/>
+  </g>
+</svg>
