@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0f766e" rx="20"/>
+  <g transform="translate(120,120)">
+    <rect x="-60" y="-40" width="50" height="100" rx="4" fill="#fff" transform="rotate(-8)"/>
+    <rect x="-10" y="-40" width="50" height="100" rx="4" fill="#fbbf24" transform="rotate(-2)"/>
+    <rect x="40" y="-40" width="50" height="100" rx="4" fill="#fff" transform="rotate(6)"/>
+  </g>
+  <text x="200" y="260" text-anchor="middle" font-family="Poppins, sans-serif" font-size="28" font-weight="700" fill="#fff">REVISTAS</text>
+</svg>

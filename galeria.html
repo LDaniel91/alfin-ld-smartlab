@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Galería de imágenes y videos de ALFIN 2026: eventos, capacitaciones, congresos y recursos audiovisuales." />
+  <title>Galería — ALFIN 2026</title>
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body data-page="galeria">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="assets/img/logo.png" alt="ALFIN 2026" data-fallback />
+      <div class="brand-text"><h1>ALFIN 2026</h1><span>Capacitación Científica</span></div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="has-dropdown">
+          <a href="aprende-publicar.html">Aprende a Publicar</a>
+          <ul class="dropdown">
+            <li><a href="aprende-publicar.html">Fundamentos</a></li>
+            <li><a href="tipos-articulos.html">Tipos de artículos</a></li>
+            <li><a href="revistas-cubanas.html">Revistas cubanas</a></li>
+            <li><a href="revistas-internacionales.html">Revistas internacionales</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="normas-vancouver.html">Normas de Estilo</a>
+          <ul class="dropdown">
+            <li><a href="normas-vancouver.html">Vancouver</a></li>
+            <li><a href="normas-apa.html">APA 7ma edición</a></li>
+            <li><a href="normas-mla.html">MLA</a></li>
+            <li><a href="normas-harvard.html">Harvard</a></li>
+          </ul>
+        </li>
+        <li><a href="orcid.html">ORCID</a></li>
+        <li><a href="bases-datos.html">Bases de Datos</a></li>
+        <li><a href="ia-investigacion.html">IA</a></li>
+        <li><a href="galeria.html" class="active">Galería</a></li>
+        <li><a href="cursos-ldsmartlab.html">Cursos LD SmartLab</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema">🌙</button>
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding:2rem 0 0;">
+  <div class="container">
+    <p style="font-size:.85rem;color:var(--c-text-soft);">
+      <a href="index.html">Inicio</a> › <span>Galería</span>
+    </p>
+    <h2 class="section-title" style="margin-top:.8rem;">Galería multimedia</h2>
+    <p class="section-sub">
+      Imágenes y videos de eventos científicos, capacitaciones, congresos y recursos audiovisuales
+      relacionados con la publicación científica en Cuba.
+    </p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1rem;">
+  <div class="container">
+
+    <!-- Video destacado -->
+    <div class="doc-viewer" style="margin-bottom:2.5rem;">
+      <div class="doc-toolbar">
+        <div class="title">🎬 Video introductorio — ALFIN 2026</div>
+        <div class="actions">
+          <a href="assets/video/intro.mp4" class="btn btn-soft" download>⬇️ Descargar video</a>
+        </div>
+      </div>
+      <div style="padding:1rem;">
+        <video controls poster="assets/img/hero-1.jpg" style="width:100%;border-radius:10px;display:block;">
+          <source src="assets/video/intro.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de video.
+        </video>
+      </div>
+    </div>
+
+    <!-- Filtros -->
+    <div class="gallery-tabs">
+      <button class="gallery-tab active" data-filter="all">📁 Todo</button>
+      <button class="gallery-tab" data-filter="image">🖼️ Imágenes</button>
+      <button class="gallery-tab" data-filter="video">🎥 Videos</button>
+    </div>
+
+    <!-- Grid de galería -->
+    <div class="gallery-grid">
+
+      <!-- IMAGEN 1 -->
+      <div class="gallery-item" data-type="image"
+           data-src="assets/img/galeria/foto-01.jpg"
+           data-title="Congreso de Medicina Interna"
+           data-desc="La Habana, 2025">
+        <img src="assets/img/galeria/foto-01.jpg" alt="Congreso de Medicina Interna" data-fallback>
+        <div class="gallery-overlay">
+          <h4>Congreso de Medicina Interna</h4>
+          <p>La Habana, 2025</p>
+        </div>
+      </div>
+
+      <!-- IMAGEN 2 -->
+      <div class="gallery-item" data-type="image"
+           data-src="assets/img/galeria/foto-02.jpg"
+           data-title="Taller de redacción científica"
+           data-desc="Santiago de Cuba, 2025">
+        <img src="assets/img/galeria/foto-02.jpg" alt="Taller de redacción" data-fallback>
+        <div class="gallery-overlay">
+          <h4>Taller de redacción científica</h4>
+          <p>Santiago de Cuba, 2025</p>
+        </div>
+      </div>
+
+      <!-- IMAGEN 3 -->
+      <div class="gallery-item" data-type="image"
+           data-src="assets/img/galeria/foto-03.jpg"
+           data-title="Jornada de investigación"
+           data-desc="Cienfuegos, 2025">
+        <img src="assets/img/galeria/foto-03.jpg" alt="Jornada de investigación" data-fallback>
+        <div class="gallery-overlay">
+          <h4>Jornada de investigación</h4>
+          <p>Cienfuegos, 2025</p>
+        </div>
+      </div>
+
+      <!-- IMAGEN 4 -->
+      <div class="gallery-item" data-type="image"
+           data-src="assets/img/galeria/foto-04.jpg"
+           data-title="Capacitación ORCID"
+           data-desc="Universidad de Ciencias Médicas">
+        <img src="assets/img/galeria/foto-04.jpg" alt="Capacitación ORCID" data-fallback>
+        <div class="gallery-overlay">
+          <h4>Capacitación ORCID</h4>
+          <p>Universidad de Ciencias Médicas</p>
+        </div>
+      </div>
+
+      <!-- IMAGEN 5 -->
+      <div class="gallery-item" data-type="image"
+           data-src="assets/img/galeria/foto-05.jpg"
+           data-title="Publicación científica"
+           data-desc="Revista Cubana de Medicina">
+        <img src="assets/img/galeria/foto-05.jpg" alt="Publicación científica" data-fallback>
+        <div class="gallery-overlay">
+          <h4>Publicación científica</h4>
+          <p>Revista Cubana de Medicina</p>
+        </div>
+      </div>
+
+      <!-- IMAGEN 6 -->
+      <div class="gallery-item" data-type="image"
+           data-src="assets/img/galeria/foto-06.jpg"
+           data-title="Biblioteca médica"
+           data-desc="Infomed">
+        <img src="assets/img/galeria/foto-06.jpg" alt="Biblioteca médica" data-fallback>
+        <div class="gallery-overlay">
+          <h4>Biblioteca médica</h4>
+          <p>Infomed</p>
+        </div>
+      </div>
+
+      <!-- VIDEO 1 -->
+      <div class="gallery-item" data-type="video"
+           data-src="assets/video/galeria/video-01.mp4"
+           data-title="Cómo crear un ORCID"
+           data-desc="Tutorial paso a paso">
+        <video muted preload="metadata" poster="assets/img/galeria/foto-01.jpg">
+          <source src="assets/video/galeria/video-01.mp4" type="video/mp4">
+        </video>
+        <div class="gallery-overlay">
+          <div class="play-icon">▶</div>
+          <h4>Cómo crear un ORCID</h4>
+          <p>Tutorial paso a paso</p>
+        </div>
+      </div>
+
+      <!-- VIDEO 2 -->
+      <div class="gallery-item" data-type="video"
+           data-src="assets/video/galeria/video-02.mp4"
+           data-title="Búsqueda en PubMed"
+           data-desc="Estrategia de búsqueda">
+        <video muted preload="metadata" poster="assets/img/galeria/foto-02.jpg">
+          <source src="assets/video/galeria/video-02.mp4" type="video/mp4">
+        </video>
+        <div class="gallery-overlay">
+          <div class="play-icon">▶</div>
+          <h4>Búsqueda en PubMed</h4>
+          <p>Estrategia de búsqueda</p>
+        </div>
+      </div>
+
+      <!-- VIDEO 3 -->
+      <div class="gallery-item" data-type="video"
+           data-src="assets/video/galeria/video-03.mp4"
+           data-title="Redacción con IA"
+           data-desc="Uso ético de la IA">
+        <video muted preload="metadata" poster="assets/img/galeria/foto-03.jpg">
+          <source src="assets/video/galeria/video-03.mp4" type="video/mp4">
+        </video>
+        <div class="gallery-overlay">
+          <div class="play-icon">▶</div>
+          <h4>Redacción con IA</h4>
+          <p>Uso ético de la IA</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p style="text-align:center;margin-top:2rem;color:var(--c-text-soft);font-size:.9rem;">
+      📌 <strong>Nota:</strong> Coloca tus archivos en <code>assets/img/galeria/</code> (imágenes) y
+      <code>assets/video/galeria/</code> (videos) con los nombres indicados, o edita el código para
+      agregar más elementos.
+    </p>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-content">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">✕</button>
+    <div id="lightboxContent"></div>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>ALFIN 2026</h4><p>Plataforma de capacitación en publicación científica para el personal de salud pública de Cuba.</p></div>
+      <div><h4>Secciones</h4><ul>
+        <li><a href="aprende-publicar.html">Aprende a Publicar</a></li>
+        <li><a href="normas-vancouver.html">Normas de Estilo</a></li>
+        <li><a href="orcid.html">ORCID</a></li>
+        <li><a href="bases-datos.html">Bases de Datos</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="cursos-ldsmartlab.html">Cursos LD SmartLab</a></li>
+      </ul></div>
+      <div><h4>Contacto</h4><ul>
+        <li>📱 <a href="https://wa.me/5354693190" target="_blank" rel="noopener">+53 5 469 3190</a></li>
+        <li>✉️ <a href="mailto:ldsmartlabmipc@outlook.com">ldsmartlabmipc@outlook.com</a></li>
+        <li>✉️ <a href="mailto:luisdanielramoscorona2010@gmail.com">luisdanielramoscorona2010@gmail.com</a></li>
+      </ul></div>
+      <div><h4>Legal</h4><ul>
+        <li><a href="aviso-legal.html">Aviso legal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      © <span class="current-year">2026</span> <strong>ALFIN 2026</strong> — Todos los derechos reservados.<br>
+      Autor: <strong>Luis Daniel Ramos Corona</strong> · Empresa: <strong>LD SmartLab</strong>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5354693190" class="whatsapp-btn" target="_blank" rel="noopener" title="WhatsApp">💬</a>
+<div class="visitor-counter"><span class="dot"></span> Visitantes: <span id="visitCount">0</span></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

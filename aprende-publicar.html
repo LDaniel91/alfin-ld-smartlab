@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aprende a Publicar — ALFIN 2026</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body data-page="aprende-publicar">
+
+<!-- HEADER (idéntico, cambia el class="active") -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="img/logo.svg" alt="ALFIN 2026" />
+      <div class="brand-text"><h1>ALFIN 2026</h1><span>Capacitación Científica</span></div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="has-dropdown">
+          <a href="aprende-publicar.html" class="active">Aprende a Publicar</a>
+          <ul class="dropdown">
+            <li><a href="aprende-publicar.html">Fundamentos de publicación</a></li>
+            <li><a href="tipos-articulos.html">Tipos de artículos</a></li>
+            <li><a href="revistas-cubanas.html">Revistas cubanas</a></li>
+            <li><a href="revistas-internacionales.html">Revistas internacionales</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="normas-vancouver.html">Normas de Estilo</a>
+          <ul class="dropdown">
+            <li><a href="normas-vancouver.html">Vancouver</a></li>
+            <li><a href="normas-apa.html">APA 7ma edición</a></li>
+            <li><a href="normas-mla.html">MLA</a></li>
+            <li><a href="normas-harvard.html">Harvard</a></li>
+          </ul>
+        </li>
+        <li><a href="orcid.html">ORCID</a></li>
+        <li><a href="bases-datos.html">Bases de Datos</a></li>
+        <li><a href="ia-investigacion.html">IA para Investigación</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema">🌙</button>
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- BREADCRUMB -->
+<section class="section" style="padding:2rem 0 0;">
+  <div class="container">
+    <p style="font-size:.85rem;color:var(--c-text-soft);">
+      <a href="index.html">Inicio</a> › <span>Aprende a Publicar</span>
+    </p>
+    <h2 class="section-title" style="margin-top:.8rem;">Aprende a publicar tus investigaciones en revistas médicas</h2>
+    <p class="section-sub">
+      Contenido basado en las directrices de la Revista Cubana de Medicina Física y Rehabilitación,
+      la Revista Cubana de Medicina Militar y otras publicaciones científicas cubanas.
+    </p>
+  </div>
+</section>
+
+<!-- VISOR DE DOCUMENTO -->
+<section class="section" style="padding-top:1rem;">
+  <div class="container">
+    <div class="doc-viewer">
+      <div class="doc-toolbar">
+        <div class="title">📄 Documento completo — Fundamentos de publicación científica</div>
+        <div class="actions">
+          <button class="btn btn-soft" data-action="pdf">⬇️ Descargar PDF</button>
+          <a href="docs/aprende-a-publicar.pdf" class="btn btn-soft" download>📥 PDF original</a>
+        </div>
+      </div>
+
+      <div class="doc-body" id="docContent">
+        <h3>1. Elementos necesarios para una publicación</h3>
+        <ul>
+          <li><strong>Introducción</strong> — Antecedentes, problema científico y objetivos.</li>
+          <li><strong>Métodos</strong> — Tipo de estudio, universo, muestra, variables y análisis estadístico.</li>
+          <li><strong>Resultados</strong> — Hallazgos de acuerdo con los objetivos, con tablas y figuras.</li>
+          <li><strong>Discusión</strong> — Análisis crítico con la literatura nacional e internacional.</li>
+        </ul>
+
+        <h3>2. Estructura del artículo científico</h3>
+        <p>Título · Autor · Institución · Resumen · Palabras clave · Introducción · Material y métodos · Resultados · Discusión · Conclusiones · Referencias bibliográficas · Agradecimientos · Contribución de autoría.</p>
+
+        <h3>3. Tipos de artículos</h3>
+        <ul>
+          <li>Editorial</li>
+          <li>Artículos originales o de investigación</li>
+          <li>Artículos de revisión</li>
+          <li>Reporte de casos clínicos</li>
+          <li>Presentación de tecnología</li>
+          <li>Artículo de opinión</li>
+          <li>Artículo especial</li>
+          <li>Comunicaciones breves</li>
+          <li>Carta al editor</li>
+        </ul>
+
+        <h3>4. Normas según las revistas</h3>
+        <p>A continuación, enlaces directos a las directrices de las principales revistas cubanas indexadas:</p>
+        <ul>
+          <li><a href="https://revmedmilitar.sld.cu/index.php/mil/about/submissions" target="_blank" rel="noopener">Revista Cubana de Medicina Militar</a></li>
+          <li><a href="https://medisan.sld.cu/templates/images/Directrices_MEDISAN.pdf" target="_blank" rel="noopener">MEDISAN — Directrices</a></li>
+          <li><a href="https://revmedicina.sld.cu/index.php/med/about/submissions#authorGuidelines" target="_blank" rel="noopener">Revista Cubana de Medicina</a></li>
+          <li><a href="https://revrehabilitation.sld.cu/index.php/reh/information/authors" target="_blank" rel="noopener">Rev. Cubana de Medicina Física y Rehabilitación</a></li>
+          <li><a href="https://revplantasmedicinales.sld.cu/index.php/pla/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Plantas Medicinales</a></li>
+          <li><a href="https://revenfermeria.sld.cu/index.php/enf/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Enfermería</a></li>
+          <li><a href="https://revmie.sld.cu/index.php/mie/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Medicina Intensiva y Emergencias</a></li>
+          <li><a href="https://revmgi.sld.cu/index.php/mgi/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Medicina General Integral</a></li>
+          <li><a href="https://revoftalmologia.sld.cu/index.php/oftalmologia/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Oftalmología</a></li>
+          <li><a href="https://revortopedia.sld.cu/index.php/revortopedia/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Ortopedia y Traumatología</a></li>
+          <li><a href="https://revcirugia.sld.cu/index.php/cir/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Cirugía</a></li>
+          <li><a href="https://revmnt.sld.cu/index.php/rmnt/about/submissions" target="_blank" rel="noopener">Rev. Cubana de Medicina Natural y Tradicional</a></li>
+          <li><a href="https://medisur.sld.cu/index.php/medisur/about/editorialPolicies" target="_blank" rel="noopener">MediSur</a></li>
+        </ul>
+
+        <h3>5. Consideraciones éticas</h3>
+        <p>Toda investigación debe cumplir con la <strong>Declaración de Helsinki</strong>, contar con aprobación del Comité de Ética institucional y declarar conflictos de interés. Cualquier violación ética se resuelve según los protocolos del <strong>COPE</strong> (Committee on Publication Ethics).</p>
+
+        <h3>6. Contribución de autoría (taxonomía CRediT)</h3>
+        <p>La taxonomía CRediT distribuye los roles en 14 tipologías: Conceptualización, Curación de datos, Análisis formal, Adquisición de fondos, Investigación, Metodología, Administración del proyecto, Recursos, Software, Supervisión, Validación, Visualización, Redacción del borrador original y Redacción, revisión y edición.</p>
+      </div>
+    </div>
+
+    <!-- FEEDBACK: like / dislike / comentarios -->
+    <div class="feedback">
+      <h4>¿Te resultó útil este contenido?</h4>
+      <div class="row">
+        <button class="vote-btn" id="likeBtn">👍 Me gusta <span class="vote-count" id="likeCount">0</span></button>
+        <button class="vote-btn" id="dislikeBtn">👎 No me gusta <span class="vote-count" id="dislikeCount">0</span></button>
+      </div>
+
+      <form class="comment-form" id="commentForm">
+        <h4 style="margin-top:1.5rem;">Deja tu opinión</h4>
+        <div class="row">
+          <input type="text" id="cName" placeholder="Tu nombre" required
+                 style="flex:1;min-width:200px;padding:.7rem .9rem;border-radius:10px;border:1px solid var(--c-border);background:var(--c-bg-alt);color:var(--c-text);">
+          <input type="email" id="cEmail" placeholder="Tu correo" required
+                 style="flex:1;min-width:200px;padding:.7rem .9rem;border-radius:10px;border:1px solid var(--c-border);background:var(--c-bg-alt);color:var(--c-text);">
+        </div>
+        <textarea id="cMessage" placeholder="Escribe tu comentario, sugerencia o consulta..." required></textarea>
+        <button type="submit" class="btn btn-primary">Enviar comentario</button>
+        <p id="commentOk" style="display:none;color:var(--c-success);margin-top:.7rem;font-weight:600;">
+          ✅ ¡Gracias! Tu cliente de correo se abrirá para enviar el mensaje.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER (idéntico) -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>ALFIN 2026</h4><p>Plataforma de capacitación en publicación científica para el personal de salud pública de Cuba.</p></div>
+      <div>
+        <h4>Secciones</h4>
+        <ul>
+          <li><a href="aprende-publicar.html">Aprende a Publicar</a></li>
+          <li><a href="normas-vancouver.html">Normas de Estilo</a></li>
+          <li><a href="orcid.html">ORCID</a></li>
+          <li><a href="bases-datos.html">Bases de Datos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li>📱 <a href="https://wa.me/5354693190" target="_blank" rel="noopener">+53 5 469 3190</a></li>
+          <li>✉️ <a href="mailto:ldsmartlabmipc@outlook.com">ldsmartlabmipc@outlook.com</a></li>
+          <li>✉️ <a href="mailto:luisdanielramoscorona2010@gmail.com">luisdanielramoscorona2010@gmail.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="aviso-legal.html">Aviso legal y derechos de autor</a></li>
+          <li><a href="contacto.html">Contacto y sugerencias</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © <span class="current-year">2026</span> <strong>ALFIN 2026</strong> — Todos los derechos reservados.<br>
+      Autor: <strong>Luis Daniel Ramos Corona</strong> · Empresa: <strong>LD SmartLab</strong>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5354693190" class="whatsapp-btn" target="_blank" rel="noopener" title="WhatsApp">💬</a>
+<div class="visitor-counter"><span class="dot"></span> Visitantes: <span id="visitCount">0</span></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

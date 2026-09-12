@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <circle cx="120" cy="120" r="80" fill="#a6ce39"/>
+  <text x="120" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" font-weight="700" fill="#fff">iD</text>
+  <text x="230" y="140" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#666">ORCID</text>
+  <path d="M 230 180 L 380 180" stroke="#a6ce39" stroke-width="3"/>
+  <text x="230" y="215" font-family="Arial, sans-serif" font-size="18" fill="#888">Connecting Research</text>
+  <text x="230" y="238" font-family="Arial, sans-serif" font-size="18" fill="#888">and Researchers</text>
+</svg>

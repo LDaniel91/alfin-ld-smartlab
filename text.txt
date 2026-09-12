@@ -1,0 +1,33 @@
+alfin2026/
+├── index.html
+├── aprende-publicar.html
+├── tipos-articulos.html
+├── revistas-cubanas.html
+├── revistas-internacionales.html
+├── normas-vancouver.html
+├── normas-apa.html
+├── normas-mla.html
+├── normas-harvard.html
+├── orcid.html
+├── bases-datos.html
+├── ia-investigacion.html
+├── contacto.html
+├── aviso-legal.html
+├── css/
+│   └── estilos.css
+├── js/
+│   └── app.js
+├── img/
+│   ├── logo.svg
+│   ├── hero-1.jpg
+│   ├── hero-2.jpg
+│   ├── hero-3.jpg
+│   ├── orcid.svg
+│   └── ...
+├── video/
+│   └── intro.mp4
+└── docs/         ← aquí colocas los PDFs locales
+    ├── aprende-a-publicar.pdf
+    ├── revista-ortopedia.pdf
+    ├── guia-vancouver.pdf
+    └── ...

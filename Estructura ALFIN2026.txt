@@ -1,0 +1,42 @@
+alfin2026/
+├── index.html
+├── aprende-publicar.html
+├── tipos-articulos.html
+├── revistas-cubanas.html
+├── revistas-internacionales.html
+├── normas-vancouver.html
+├── normas-apa.html
+├── normas-mla.html
+├── normas-harvard.html
+├── orcid.html
+├── bases-datos.html
+├── ia-investigacion.html
+├── contacto.html
+├── aviso-legal.html
+├── css/estilos.css
+├── js/app.js
+├── img/
+│   ├── logo.svg
+│   ├── hero-1.svg
+│   ├── hero-2.svg
+│   ├── hero-3.svg
+│   ├── orcid.svg
+│   ├── vancouver.svg
+│   ├── apa.svg
+│   ├── mla.svg
+│   ├── harvard.svg
+│   ├── bases-datos.svg
+│   ├── ia.svg
+│   ├── revistas.svg
+│   └── contacto.svg
+└── docs/
+    ├── aprende-a-publicar.pdf
+    ├── normas-vancouver.pdf
+    ├── normas-apa.pdf
+    ├── normas-mla.pdf
+    ├── normas-harvard.pdf
+    ├── orcid-guia.pdf
+    ├── bases-datos.pdf
+    ├── ia-investigacion.pdf
+    ├── revistas-cubanas.pdf
+    └── revistas-internacionales.pdf

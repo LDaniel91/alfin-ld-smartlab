@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Selección de revistas, bases de datos y búsqueda de información científica. Creación de bases de datos en Excel." />
+  <title>Bases de Datos y Búsqueda de Información — ALFIN 2026</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body data-page="bases-datos">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="img/logo.svg" alt="ALFIN 2026" />
+      <div class="brand-text"><h1>ALFIN 2026</h1><span>Capacitación Científica</span></div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="has-dropdown">
+          <a href="aprende-publicar.html">Aprende a Publicar</a>
+          <ul class="dropdown">
+            <li><a href="aprende-publicar.html">Fundamentos de publicación</a></li>
+            <li><a href="tipos-articulos.html">Tipos de artículos</a></li>
+            <li><a href="revistas-cubanas.html">Revistas cubanas</a></li>
+            <li><a href="revistas-internacionales.html">Revistas internacionales</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="normas-vancouver.html">Normas de Estilo</a>
+          <ul class="dropdown">
+            <li><a href="normas-vancouver.html">Vancouver</a></li>
+            <li><a href="normas-apa.html">APA 7ma edición</a></li>
+            <li><a href="normas-mla.html">MLA</a></li>
+            <li><a href="normas-harvard.html">Harvard</a></li>
+          </ul>
+        </li>
+        <li><a href="orcid.html">ORCID</a></li>
+        <li><a href="bases-datos.html" class="active">Bases de Datos</a></li>
+        <li><a href="ia-investigacion.html">IA para Investigación</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema">🌙</button>
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding:2rem 0 0;">
+  <div class="container">
+    <p style="font-size:.85rem;color:var(--c-text-soft);">
+      <a href="index.html">Inicio</a> › <span>Bases de Datos y Búsqueda de Información</span>
+    </p>
+    <h2 class="section-title" style="margin-top:.8rem;">Selección de revistas, bases de datos y búsqueda de información</h2>
+    <p class="section-sub">
+      Aprende a identificar revistas de alto factor de impacto, usar los principales buscadores académicos
+      y gestionar la información recolectada mediante bases de datos en Excel.
+    </p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1rem;">
+  <div class="container">
+    <div class="doc-viewer">
+      <div class="doc-toolbar">
+        <div class="title">📄 Documento completo — Bases de datos y Excel</div>
+        <div class="actions">
+          <button class="btn btn-soft" data-action="pdf">⬇️ Descargar PDF</button>
+          <a href="docs/bases-datos.pdf" class="btn btn-soft" download>📥 PDF original</a>
+        </div>
+      </div>
+
+      <div class="doc-body">
+        <h3>1. ¿Qué son las revistas de alto factor de impacto?</h3>
+        <p>El <strong>factor de impacto</strong> de una revista se refiere al índice cienciométrico que calcula la media anual de citas de los artículos publicados en los dos últimos años de la revista. Se utiliza como indicador de la reputación e importancia de la revista en su campo. Cuanto mayor sea el factor de impacto, mayor será su importancia y prestigio.</p>
+
+        <h3>2. Revistas cubanas en SciELO Cuba incluidas en el Grupo 2 (2025)</h3>
+        <ol>
+          <li>Acta Médica del Centro</li>
+          <li>Alcance</li>
+          <li>Anales de la Academia de Ciencias de Cuba</li>
+          <li>Biotecnología Vegetal</li>
+          <li>Centro Agrícola</li>
+          <li>Centro Azúcar</li>
+          <li>Cofin Habana</li>
+          <li>Conrado</li>
+          <li>Cooperativismo y Desarrollo</li>
+          <li>Corsalud</li>
+          <li>Cuban Journal of Agricultural Science</li>
+          <li>Cultivos Tropicales</li>
+          <li>Economía y Desarrollo</li>
+          <li>Educación Médica Superior</li>
+          <li>Edumecentro</li>
+          <li>Edusol</li>
+          <li>Gaceta Médica Espirituana</li>
+          <li>Humanidades Médicas</li>
+          <li>Infodir</li>
+          <li>Ingeniería Electrónica, Automática y Comunicaciones</li>
+          <li>Ingeniería Energética</li>
+          <li>Ingeniería Hidráulica y Ambiental</li>
+          <li>Ingeniería Industrial</li>
+          <li>Ingeniería Mecánica</li>
+          <li>Medicentro Electrónica</li>
+          <li>MEDISAN</li>
+          <li>MediSur</li>
+          <li>Mendive. Revista de Educación</li>
+          <li>Minería y Geología</li>
+          <li>Multimed</li>
+          <li>Pastos y Forrajes</li>
+          <li>Podium. Revista de Ciencia y Tecnología en la Cultura Física</li>
+          <li>Retos de la Dirección</li>
+          <li>Revista Archivo Médico de Camagüey</li>
+          <li>Revista Ciencias Técnicas Agropecuarias</li>
+          <li>Revista Cubana de Anestesiología y Reanimación</li>
+          <li>Revista Cubana de Angiología y Cirugía Vascular</li>
+          <li>Revista Cubana de Ciencias Forestales</li>
+          <li>Revista Cubana de Ciencias Informáticas</li>
+          <li>Revista Cubana de Cirugía</li>
+          <li>Revista Cubana de Educación Superior</li>
+          <li>Revista Cubana de Endocrinología</li>
+          <li>Revista Cubana de Enfermería</li>
+          <li>Revista Cubana de Estomatología</li>
+          <li>Revista Cubana de Hematología, Inmunología y Hemoterapia</li>
+          <li>Revista Cubana de Higiene y Epidemiología</li>
+          <li>Revista Cubana de Información en Ciencias de la Salud</li>
+          <li>Revista Cubana de Informática Médica</li>
+          <li>Revista Cubana de Investigaciones Biomédicas</li>
+          <li>Revista Cubana de Medicina</li>
+          <li>Revista Cubana de Medicina General Integral</li>
+          <li>Revista Cubana de Medicina Militar</li>
+          <li>Revista Cubana de Medicina Tropical</li>
+          <li>Revista Cubana de Oftalmología</li>
+          <li>Revista Cubana de Ortopedia y Traumatología</li>
+          <li>Revista Cubana de Pediatría</li>
+          <li>Revista Cubana de Química</li>
+          <li>Revista Cubana de Reumatología</li>
+          <li>Revista Cubana de Salud Pública</li>
+          <li>Revista de Ciencias Médicas de Pinar del Río</li>
+          <li>Revista de Producción Animal</li>
+          <li>Revista de Salud Animal</li>
+          <li>Revista Estudios del Desarrollo Social: Cuba y América Latina</li>
+          <li>Revista Finlay</li>
+          <li>Revista Habanera de Ciencias Médicas</li>
+          <li>Revista Información Científica</li>
+          <li>Revista Médica Electrónica</li>
+          <li>Revista Novedades en Población</li>
+          <li>Revista Universidad y Sociedad</li>
+          <li>Tecnología Química</li>
+          <li>Transformación</li>
+          <li>Universidad de La Habana</li>
+          <li>Vaccimonitor</li>
+          <li>Varona. Revista Científico Metodológica</li>
+        </ol>
+
+        <h3>3. Aula Virtual de Salud</h3>
+        <p>Espacio virtual que posibilita a los docentes de las Ciencias Biomédicas desarrollar actividades formativas (cursos, talleres, diplomados, jornadas, eventos y asignaturas) dirigidas al pregrado y posgrado con comparecencia presencial, semipresencial y a distancia.</p>
+        <p>🔗 <a href="https://aula.scu.sld.cu" target="_blank" rel="noopener">aula.scu.sld.cu</a></p>
+
+        <h3>4. Buscadores y bases de datos de interés</h3>
+
+        <h4>Google Scholar / Google Académico</h4>
+        <p>Buscador creado por Google cuyo objetivo es la búsqueda de información especializada científica, médica y legal de carácter académico. Se nutre de estudios revisados por especialistas, tesis, libros, resúmenes y artículos.</p>
+        <p>🔗 <a href="http://www.scholar.google.es" target="_blank" rel="noopener">scholar.google.es</a></p>
+
+        <h4>PubMed</h4>
+        <p>Base de datos bibliográfica de literatura médica, compilada por la National Library of Medicine (NLM) de los Estados Unidos. Se actualiza a diario y permite el acceso gratuito a más de 21 millones de artículos de MEDLINE y PreMEDLINE.</p>
+        <p>🔗 <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></p>
+
+        <h4>LILACS</h4>
+        <p>Base de datos en español e inglés en ciencias de la salud de América Latina y el Caribe.</p>
+        <p>🔗 <a href="https://lilacs.ibict.cl/eng/" target="_blank" rel="noopener">lilacs.ibict.cl</a></p>
+
+        <h4>SciELO</h4>
+        <p>Base de datos de libros y revistas de América. Cada país contiene su base de datos y tributa a la general (SciELO regional, Cuba, Chile, Perú).</p>
+        <p>🔗 <a href="https://scielo.org/es/" target="_blank" rel="noopener">scielo.org/es</a></p>
+
+        <h4>Elsevier</h4>
+        <p>Base de datos en idioma inglés, casa editora con artículos médicos de alto impacto, veracidad y actualidad.</p>
+
+        <h4>Nature</h4>
+        <p>🔗 <a href="https://www.nature.com/siteindex" target="_blank" rel="noopener">nature.com/siteindex</a></p>
+
+        <h4>ScienceDirect</h4>
+        <p>🔗 <a href="https://www.sciencedirect.com/browse/journals-and-books" target="_blank" rel="noopener">sciencedirect.com</a></p>
+
+        <h4>Springer</h4>
+        <p>🔗 <a href="https://health.springer.com/" target="_blank" rel="noopener">health.springer.com</a></p>
+
+        <h4>Wiley</h4>
+        <p>🔗 <a href="https://onlinelibrary.wiley.com/" target="_blank" rel="noopener">onlinelibrary.wiley.com</a></p>
+
+        <h4>EBSCO</h4>
+        <p>Base de datos multidisciplinar con miles de revistas académicas y publicaciones periódicas.</p>
+
+        <h3>5. Creación de bases de datos en Excel</h3>
+        <p>Una base de datos en Excel es una herramienta fundamental para gestionar la información recolectada durante la revisión bibliográfica. Permite organizar, filtrar y analizar los artículos consultados.</p>
+
+        <h4>Estructura recomendada de columnas</h4>
+        <ul>
+          <li><strong>ID</strong> — Número consecutivo único.</li>
+          <li><strong>Autor(es)</strong> — Apellidos e iniciales.</li>
+          <li><strong>Año</strong> — Año de publicación.</li>
+          <li><strong>Título del artículo</strong> — Título completo.</li>
+          <li><strong>Revista</strong> — Nombre de la publicación.</li>
+          <li><strong>Volumen/Número</strong> — Datos de la edición.</li>
+          <li><strong>Páginas</strong> — Rango de páginas.</li>
+          <li><strong>DOI/URL</strong> — Enlace permanente.</li>
+          <li><strong>Tipo de estudio</strong> — Original, revisión, caso clínico, etc.</li>
+          <li><strong>País</strong> — País de origen.</li>
+          <li><strong>Idioma</strong> — Español, inglés, portugués.</li>
+          <li><strong>Palabras clave</strong> — Descriptores DeCS/MeSH.</li>
+          <li><strong>Resumen</strong> — Síntesis del artículo.</li>
+          <li><strong>Relevancia (1-5)</strong> — Nivel de utilidad para tu investigación.</li>
+          <li><strong>Observaciones</strong> — Notas personales.</li>
+        </ul>
+
+        <h4>Buenas prácticas en Excel</h4>
+        <ul>
+          <li>Usa una fila por cada artículo y una columna por cada variable.</li>
+          <li>Aplica "Filtros" en la fila de encabezados.</li>
+          <li>Usa "Formato como tabla" para facilitar la lectura.</li>
+          <li>Evita celdas combinadas: dificultan el filtrado.</li>
+          <li>Usa validación de datos para estandarizar campos (tipo de estudio, idioma, país).</li>
+          <li>Guarda el archivo en formato .xlsx o .xls (requisito de muchas revistas).</li>
+          <li>Realiza copias de seguridad periódicas.</li>
+        </ul>
+
+        <h3>6. Estrategia de búsqueda bibliográfica</h3>
+        <ol>
+          <li><strong>Definir la pregunta de investigación</strong> (formato PICO: Paciente, Intervención, Comparación, Outcome).</li>
+          <li><strong>Identificar palabras clave</strong> usando el tesauro DeCS/MeSH.</li>
+          <li><strong>Construir la ecuación de búsqueda</strong> con operadores booleanos (AND, OR, NOT).</li>
+          <li><strong>Seleccionar las bases de datos</strong> apropiadas (PubMed, SciELO, LILACS, Scopus, etc.).</li>
+          <li><strong>Aplicar filtros</strong> por año, idioma, tipo de estudio.</li>
+          <li><strong>Exportar resultados</strong> a tu base de datos en Excel.</li>
+          <li><strong>Evaluar la calidad</strong> de cada artículo (relevancia, rigor metodológico).</li>
+          <li><strong>Sintetizar la información</strong> y redactar la revisión.</li>
+        </ol>
+
+        <h3>7. Enlaces útiles</h3>
+        <ul>
+          <li><a href="https://www.infomed.sld.cu" target="_blank" rel="noopener">Infomed — Red de Salud de Cuba</a></li>
+          <li><a href="https://decs.bvsalud.org/es/" target="_blank" rel="noopener">DeCS — Descriptores en Ciencias de la Salud</a></li>
+          <li><a href="https://www.nlm.nih.gov/mesh/" target="_blank" rel="noopener">MeSH — Medical Subject Headings</a></li>
+          <li><a href="https://www.scopus.com/" target="_blank" rel="noopener">Scopus</a></li>
+          <li><a href="https://www.webofscience.com/" target="_blank" rel="noopener">Web of Science</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="feedback">
+      <h4>¿Te resultó útil este contenido?</h4>
+      <div class="row">
+        <button class="vote-btn" id="likeBtn">👍 Me gusta <span class="vote-count" id="likeCount">0</span></button>
+        <button class="vote-btn" id="dislikeBtn">👎 No me gusta <span class="vote-count" id="dislikeCount">0</span></button>
+      </div>
+      <form class="comment-form" id="commentForm">
+        <h4 style="margin-top:1.5rem;">Deja tu opinión</h4>
+        <div class="row">
+          <input type="text" id="cName" placeholder="Tu nombre" required style="flex:1;min-width:200px;padding:.7rem .9rem;border-radius:10px;border:1px solid var(--c-border);background:var(--c-bg-alt);color:var(--c-text);">
+          <input type="email" id="cEmail" placeholder="Tu correo" required style="flex:1;min-width:200px;padding:.7rem .9rem;border-radius:10px;border:1px solid var(--c-border);background:var(--c-bg-alt);color:var(--c-text);">
+        </div>
+        <textarea id="cMessage" placeholder="Escribe tu comentario..." required></textarea>
+        <button type="submit" class="btn btn-primary">Enviar comentario</button>
+        <p id="commentOk" style="display:none;color:var(--c-success);margin-top:.7rem;font-weight:600;">✅ ¡Gracias! Se abrirá tu cliente de correo.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>ALFIN 2026</h4><p>Plataforma de capacitación en publicación científica para el personal de salud pública de Cuba.</p></div>
+      <div><h4>Secciones</h4><ul>
+        <li><a href="aprende-publicar.html">Aprende a Publicar</a></li>
+        <li><a href="normas-vancouver.html">Normas de Estilo</a></li>
+        <li><a href="orcid.html">ORCID</a></li>
+        <li><a href="bases-datos.html">Bases de Datos</a></li>
+      </ul></div>
+      <div><h4>Contacto</h4><ul>
+        <li>📱 <a href="https://wa.me/5354693190" target="_blank" rel="noopener">+53 5 469 3190</a></li>
+        <li>✉️ <a href="mailto:ldsmartlabmipc@outlook.com">ldsmartlabmipc@outlook.com</a></li>
+        <li>✉️ <a href="mailto:luisdanielramoscorona2010@gmail.com">luisdanielramoscorona2010@gmail.com</a></li>
+      </ul></div>
+      <div><h4>Legal</h4><ul>
+        <li><a href="aviso-legal.html">Aviso legal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      © <span class="current-year">2026</span> <strong>ALFIN 2026</strong> — Todos los derechos reservados.<br>
+      Autor: <strong>Luis Daniel Ramos Corona</strong> · Empresa: <strong>LD SmartLab</strong>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5354693190" class="whatsapp-btn" target="_blank" rel="noopener" title="WhatsApp">💬</a>
+<div class="visitor-counter"><span class="dot"></span> Visitantes: <span id="visitCount">0</span></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

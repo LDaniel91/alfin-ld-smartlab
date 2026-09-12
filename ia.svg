@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="ia" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#0b6fa4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#ia)" rx="20"/>
+  <g transform="translate(200,120)" fill="none" stroke="#fff" stroke-width="3">
+    <circle cx="0" cy="0" r="50"/>
+    <circle cx="0" cy="0" r="25"/>
+    <line x1="-50" y1="0" x2="-80" y2="0"/>
+    <line x1="50" y1="0" x2="80" y2="0"/>
+    <line x1="0" y1="-50" x2="0" y2="-80"/>
+    <line x1="0" y1="50" x2="0" y2="80"/>
+  </g>
+  <text x="200" y="260" text-anchor="middle" font-family="Poppins, sans-serif" font-size="28" font-weight="700" fill="#fff">IA &amp; INVESTIGACIÓN</text>
+</svg>

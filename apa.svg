@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#7c3aed" rx="20"/>
+  <text x="200" y="140" text-anchor="middle" font-family="Poppins, sans-serif" font-size="70" font-weight="700" fill="#fff">APA</text>
+  <text x="200" y="180" text-anchor="middle" font-family="Open Sans, sans-serif" font-size="20" fill="#e9d5ff">7ma edición</text>
+  <text x="200" y="230" text-anchor="middle" font-family="Arial" font-size="20" fill="#fff" opacity="0.9">(Autor, año)</text>
+</svg>

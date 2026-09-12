@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contacta con ALFIN 2026: WhatsApp, correo electrónico y formulario de contacto." />
+  <title>Contacto — ALFIN 2026</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body data-page="contacto">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="img/logo.svg" alt="ALFIN 2026" />
+      <div class="brand-text"><h1>ALFIN 2026</h1><span>Capacitación Científica</span></div>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li class="has-dropdown">
+          <a href="aprende-publicar.html">Aprende a Publicar</a>
+          <ul class="dropdown">
+            <li><a href="aprende-publicar.html">Fundamentos de publicación</a></li>
+            <li><a href="tipos-articulos.html">Tipos de artículos</a></li>
+            <li><a href="revistas-cubanas.html">Revistas cubanas</a></li>
+            <li><a href="revistas-internacionales.html">Revistas internacionales</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="normas-vancouver.html">Normas de Estilo</a>
+          <ul class="dropdown">
+            <li><a href="normas-vancouver.html">Vancouver</a></li>
+            <li><a href="normas-apa.html">APA 7ma edición</a></li>
+            <li><a href="normas-mla.html">MLA</a></li>
+            <li><a href="normas-harvard.html">Harvard</a></li>
+          </ul>
+        </li>
+        <li><a href="orcid.html">ORCID</a></li>
+        <li><a href="bases-datos.html">Bases de Datos</a></li>
+        <li><a href="ia-investigacion.html">IA para Investigación</a></li>
+        <li><a href="contacto.html" class="active">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Cambiar tema">🌙</button>
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="section" style="padding:2rem 0 0;">
+  <div class="container">
+    <p style="font-size:.85rem;color:var(--c-text-soft);">
+      <a href="index.html">Inicio</a> › <span>Contacto</span>
+    </p>
+    <h2 class="section-title" style="margin-top:.8rem;">Contacto</h2>
+    <p class="section-sub">
+      ¿Tienes consultas, sugerencias o deseas colaborar con ALFIN 2026? Escríbenos y te responderemos a la brevedad.
+    </p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:1rem;">
+  <div class="container">
+    <div class="grid grid-3" style="margin-bottom:2.5rem;">
+      <div class="card">
+        <div class="card-icon">💬</div>
+        <h3>WhatsApp</h3>
+        <p>Escríbenos directamente para consultas rápidas.</p>
+        <p style="margin-top:1rem;"><a href="https://wa.me/5354693190" target="_blank" rel="noopener" class="btn btn-primary">+53 5 469 3190</a></p>
+      </div>
+      <div class="card">
+        <div class="card-icon">✉️</div>
+        <h3>Correo electrónico</h3>
+        <p>Para consultas detalladas o envío de documentos.</p>
+        <p style="margin-top:1rem;font-size:.9rem;">
+          <a href="mailto:ldsmartlabmipc@outlook.com">ldsmartlabmipc@outlook.com</a><br>
+          <a href="mailto:luisdanielramoscorona2010@gmail.com">luisdanielramoscorona2010@gmail.com</a>
+        </p>
+      </div>
+      <div class="card">
+        <div class="card-icon">👤</div>
+        <h3>Autor / Empresa</h3>
+        <p><strong>Luis Daniel Ramos Corona</strong><br>Empresa: <strong>LD SmartLab</strong></p>
+      </div>
+    </div>
+
+    <div class="doc-viewer" style="max-width:800px;margin-inline:auto;">
+      <div class="doc-toolbar">
+        <div class="title">📨 Formulario de contacto</div>
+      </div>
+      <div class="doc-body">
+        <form id="commentForm">
+          <div style="margin-bottom:1rem;">
+            <label for="cName" style="display:block;font-weight:600;margin-bottom:.4rem;">Nombre completo *</label>
+            <input type="text" id="cName" required style="width:100%;padding:.75rem .9rem;border-radius:10px;border:1px solid var(--c-border);background:var(--c-bg-alt);color:var(--c-text);">
+          </div>
+          <div style="margin-bottom:1rem;">
+            <label for="cEmail" style="display:block;font-weight:600;margin-bottom:.4rem;">Correo electrónico *</label>
+            <input type="email" id="cEmail" required style="width:100%;padding:.75rem .9rem;border-radius:10px;border:1px solid var(--c-border);background:var(--c-bg-alt);color:var(--c-text);">
+          </div>
+          <div style="margin-bottom:1rem;">
+            <label for="cMessage" style="display:block;font-weight:600;margin-bottom:.4rem;">Mensaje *</label>
+            <textarea id="cMessage" required placeholder="Cuéntanos en qué podemos ayudarte..." style="width:100%;min-height:140px;padding:.9rem;border-radius:10px;border:1px solid var(--c-border);background:var(--c-bg-alt);color:var(--c-text);font-family:inherit;resize:vertical;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          <p id="commentOk" style="display:none;color:var(--c-success);margin-top:.7rem;font-weight:600;">✅ ¡Gracias! Se abrirá tu cliente de correo para enviar el mensaje.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>ALFIN 2026</h4><p>Plataforma de capacitación en publicación científica para el personal de salud pública de Cuba.</p></div>
+      <div><h4>Secciones</h4><ul>
+        <li><a href="aprende-publicar.html">Aprende a Publicar</a></li>
+        <li><a href="normas-vancouver.html">Normas de Estilo</a></li>
+        <li><a href="orcid.html">ORCID</a></li>
+        <li><a href="bases-datos.html">Bases de Datos</a></li>
+      </ul></div>
+      <div><h4>Contacto</h4><ul>
+        <li>📱 <a href="https://wa.me/5354693190" target="_blank" rel="noopener">+53 5 469 3190</a></li>
+        <li>✉️ <a href="mailto:ldsmartlabmipc@outlook.com">ldsmartlabmipc@outlook.com</a></li>
+        <li>✉️ <a href="mailto:luisdanielramoscorona2010@gmail.com">luisdanielramoscorona2010@gmail.com</a></li>
+      </ul></div>
+      <div><h4>Legal</h4><ul>
+        <li><a href="aviso-legal.html">Aviso legal</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      © <span class="current-year">2026</span> <strong>ALFIN 2026</strong> — Todos los derechos reservados.<br>
+      Autor: <strong>Luis Daniel Ramos Corona</strong> · Empresa: <strong>LD SmartLab</strong>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5354693190" class="whatsapp-btn" target="_blank" rel="noopener" title="WhatsApp">💬</a>
+<div class="visitor-counter"><span class="dot"></span> Visitantes: <span id="visitCount">0</span></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

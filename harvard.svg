@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#0d9488" rx="20"/>
+  <text x="200" y="140" text-anchor="middle" font-family="Poppins, sans-serif" font-size="56" font-weight="700" fill="#fff">HARVARD</text>
+  <text x="200" y="180" text-anchor="middle" font-family="Open Sans, sans-serif" font-size="20" fill="#ccfbf1">Sistema autor-fecha</text>
+  <text x="200" y="230" text-anchor="middle" font-family="Arial" font-size="20" fill="#fff" opacity="0.9">(Apellido, año)</text>
+</svg>
